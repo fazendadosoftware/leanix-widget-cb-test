@@ -1,0 +1,1 @@
+import '@leanix/reporting'
