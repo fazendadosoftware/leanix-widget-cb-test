@@ -26,7 +26,11 @@
             this.dataset = dataset
           }
         }
-      ]
+    ],
+    reportViewFactSheetType: 'Application',
+    reportViewCallback: view => {
+      console.log('view callback', view)
+    }
   }
   window.onload = async () => {
     console.log('report loaded')
